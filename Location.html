@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+</br>
+  <title>Location</title>
+  <style>
+
+.dropbtn {
+    background-color: lightblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: skyblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown a:hover {background-color: lightblue;}
+
+.show {display:block;}
+
+    body {
+     
+      color: white;
+    
+     background: black;
+  
+      background-size: 1470px;
+      background-position: bottom;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 40px; color: white;
+    }
+</style>
+
+  <body>
+    <header style="background-color:white;  text-align: center;">
+    <h1 style="color: 999; text-align: right; font-size: 100%;"></h1>
+
+    <a href="MainMenu"><img src= "https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/92178728_605f96f1-eaa4-4d35-8b4d-6b2902a5be47.png?cb=1490801797"></a> 
+    </br>
+    </br>
+    </header>
+
+    <div style="text-align: left;" class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">&#9776</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="Calendar.html">Calendar</a>
+      <a href="Messaging.html">Contacts</a>
+          <a href="Location.html">Events</a>
+      <a href="Reminder Page.html">Notes</a>
+    </div>
+  </div>
+
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+    <p style= "color: lightblue;  text-align: center;"> Current Locations
+    </p>
+
+
+<div style=" text-align: center;">
+
+  <div style="display: inline-block; font-size: 30px;  text-align: center;" > 
+  <a href="CalendarATL.html"><input type="image"  img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/AtlantaCentennialOlympicPark.jpg/220px-AtlantaCentennialOlympicPark.jpg" alt="Submit" width="90" height="90"></a> 
+   </br>
+  <text>
+    Atlanta, GA  |
+  </text>
+  </div>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+   <a href="CalendarCHI.html"><input type="image"  img src="https://pic.qyer.com/album/user/986/28/SEFTQBIPYw/index/680x400" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+    Chicago,IL  | 
+  </text>
+  </div>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+  <a href="CalendarHOU.html"><input type="image"  img src="http://cdn.c.photoshelter.com/img-get/I0000KfEsTUYrHvc/s/600/600/SKDT1058.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+     Houston,TX  |
+  </text>
+  </div>
+
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+   <a href="CalendarLA.html"><input type="image"  img src="http://kalifornienguide.com/wp-content/uploads/2011/10/la-skyline.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+    Los Angeles, CA |
+  </text>
+  </div>
+  </br>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+   <a href="CalendarMIA.html"><input type="image"  img src="http://aaarecruiters.com/images/cities/miami.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+    Miami, FL |
+  </text>
+  </div>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+   <a href="CalendarNASH.html"><input type="image"  img src="http://i.huffpost.com/gen/1360794/images/o-NASHVILLE-facebook.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+    Nashville, TN |
+  </text>
+  </div>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+   <a href="CalendarNO.html"><input type="image"  img src="https://c1.staticflickr.com/6/5654/21420818204_3429f85b17_b.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+    New Orleans, LA |
+  </text>
+  </div>
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+  <a href="CalendarNYC.html"> <input type="image"  img src="http://www.cubebreaker.com/wp-content/uploads/2014/04/skyline-01-new-york-city.jpg" alt="Submit" width="90" height="90"></a>
+   </br>
+  <text>
+  New York City, NY  |
+  </text>
+  </div>
+
+
+  <div style="display: inline-block;  text-align: center; font-size: 30px;" > 
+  <a href="CalendarD.C..html"><input type="image"  img src="http://www.citiscapes-art.com/cities2/washington/32628pi.jpg" alt="Submit" width="90" height="90"></a> 
+   </br>
+  <text>
+    Washington D.C.  
+  </text>
+  </div>
+
+
+</div>
+
+  </body>
+</html>

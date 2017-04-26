@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<head>
+</br>
+
+  <title>Calendar Page</title>
+  </h2>
+
+
+
+<body> 
+<header style="background-color:white;">
+<h1 style="color: 999; text-align: right; font-size: 100%;"> 
+</h1>
+ <img 
+src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/92178728_605f96f1-eaa4-4d35-8b4d-6b2902a5be47.png?cb=1490801797"> </br>
+</br>
+
+</header>
+</br>
+
+ 
+<style>
+* {box-sizing:border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana,sans-serif;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+h4 {
+  color: lightblue;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+
+.list {
+  color: white;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.list li:hover {
+  background-color: #f0f0f0;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+.lines {
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  width: 2px;
+  float: left;
+  height: 495px;
+  margin-left: 40px;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    bg-color: #000;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: lightblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: lightblue;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: lightblue;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 17.5%;}
+    .days li .active {padding: 6px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+    body {
+      text-align: center;
+      color: white;
+      
+     background: black;
+  
+      background-size: 1400px;
+      background-position: bottom;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px; color: white;
+    }
+    input {
+      border: 0;
+      padding: 10px:
+      font-size: 12px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="month">      
+  <ul>
+    <li style="color; lightblue" class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    
+    <li style="text-align:center">
+    May 1-7<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mon</li>
+  <li>Tue</li>
+  <li>Wed</li>
+  <li>Thu</li>
+  <li>Fri</li>
+  <li>Sat</li>
+  <li>Sun</li>
+</ul>
+
+<ul class="days">  
+  <li><span class="active">1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  </br>
+  </br>
+
+  
+</head>
+
+
+ <body>
+ <p>
+  <h4>Notes</h4>
+<div class="lines"></div>
+
+<ul class="list">
+  <li> Pick up the Car at 6 am</li>
+  <li>Pick up the Clothes from Bloomingdales at 7 am</li>
+  <li>Drop off Clothes to the Costume Department by 8:45 (THE LATEST)</li>
+  <li>Take Clothes That Don't Fit back to Antrapologie</li>
+  <li>Pick Up Clothes from the Dry Cleaning by 10am</li>
+  <li>Pick up Andrew, from Set at 1, and Have his lunch plate from DOVETAIL   waiting HOT!!!!!!!</li>
+  <li>Join the rest of the PA's and finish tomorrows prep by 6pm (HOPEFULLY)</li>
+  <li>Pray you leave before 9pm today</li>
+</ul>
+</p>
+</body>
+
+
+</form>
+</div>
+</header2>
+</body>
+
+ </html>

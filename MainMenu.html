@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: lightblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: skyblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+body {
+      
+      color: white;
+    
+     background: black;
+  
+      background-size: 1470px;
+      background-position: bottom;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 40px; color: white;
+    }
+    input {
+      border: 0;
+      padding: 10px:
+      font-size: 12px;
+      color: white;
+    }
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+div {
+  text-align: left;
+}
+
+.dropdown a:hover {background-color: lightblue;}
+
+.show {display:block;}
+</style> 
+</head>
+<body>
+
+</br>
+  <title>Home</title>
+<body>
+  <header style="background-color:white; text-align: center;">
+  <h1 style="color: 999; text-align: right; font-size: 100%;"></h1>
+
+  <a href="MainMenu"><img src= "https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/92178728_605f96f1-eaa4-4d35-8b4d-6b2902a5be47.png?cb=1490801797"></a> 
+  </br>
+  </br>
+  </header>
+
+
+<div style="text-align: left;" class="dropdown">
+<button onclick="myFunction()" class="dropbtn">&#9776</button>
+  <div id="myDropdown" class="dropdown-content">
+      <a href="Calendar.html">Calendar</a>
+    <a href="Messaging.html">Contacts</a>
+        <a href="Location.html">Events</a>
+    <a href="Reminder Page.html">Notes</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+</body>
+</html>
